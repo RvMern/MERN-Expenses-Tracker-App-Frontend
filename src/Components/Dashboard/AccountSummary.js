@@ -11,21 +11,21 @@ const AccountSummary = () => {
         <div className='bg-violet-400 rounded-lg p-6 my-5 shadow-xl w-full md:mx-3 lg:mx-12'>
           <h2 className='text-white py-2 text-center font-bold text-lg'>Today's Revenue</h2>
           <div  className='flex justify-between items-center'>
-            <h3 className='font-medium text-2xl p-2'>$4,540</h3>
+            <h3 className='font-medium text-2xl p-2'>$0</h3>
             <h4 className='text-black text-sm bg-green-200 rounded-lg p-1 font-medium'>+23%</h4>
           </div>
         </div>
         <div className='bg-violet-300 rounded-lg p-6 my-5 shadow-xl w-full md:mx-3 md:lg-12'>
           <h2 className='text-white py-2 text-center font-bold text-lg'>Today's Orders</h2>
           <div  className='flex justify-between items-center'>
-            <h3 className='font-medium text-2xl p-2'>$4,540</h3>
+            <h3 className='font-medium text-2xl p-2'>$0</h3>
             <h4 className='text-black text-sm bg-green-200 rounded-lg p-1 font-medium'>+8%</h4>
           </div>
         </div>
         <div className='bg-violet-300 rounded-lg p-6 my-5 shadow-xl w-full md:mx-3 md:lg-12'>
           <h2 className='text-white py-2 text-center font-bold text-lg'>Avg. Order Value</h2>
           <div  className='flex justify-between items-center'>
-            <h3 className='font-medium text-2xl p-2'>$91.42</h3>
+            <h3 className='font-medium text-2xl p-2'>$0</h3>
             <h4 className='text-black text-sm bg-green-200 rounded-lg p-1 font-medium'>+23%</h4>
           </div>
         </div>
