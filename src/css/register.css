@@ -1,0 +1,65 @@
+.register-form-container{
+    display: grid;
+    height: auto;
+    padding: 40px 0;
+    place-items: center;
+}
+
+#registerForm{
+    height: auto;
+    width: 95%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.2);
+}
+
+#registerForm > h1{
+    border-radius: 10px 10px 0 0;
+}
+
+#registerForm > div{
+    width: 90%;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+#registerForm > div > label{
+    text-align: center;
+}
+
+#registerForm > div > input{
+    display: block;
+    width: 80%;
+    text-align: center;
+    margin: auto !important;
+}
+
+#registerForm > div > select{
+    display: block;
+    width: 80%;
+    text-align: center;
+    margin: auto !important;
+}
+
+#registerForm > button{
+    width: 40%;
+    margin: 20px auto;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+
+
+@media screen and (min-width:768px) {
+    #registerForm{
+        max-width: 40%;
+    }
+
+    #registerForm > div > input{
+        display: block;
+        width: 80%;
+    }
+
+    #registerForm > div > select{
+        width: 80%;
+    }
+}

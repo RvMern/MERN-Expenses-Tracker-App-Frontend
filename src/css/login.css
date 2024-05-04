@@ -1,0 +1,53 @@
+.login-form-container{
+    display: grid;
+    height: 100vh;
+    place-items: center;
+}
+
+#loginForm{
+    height: auto;
+    width: 95%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 15px rgba(0,0,0,0.2);
+}
+
+#loginForm > h1{
+    border-radius: 10px 10px 0 0;
+}
+
+#loginForm > div{
+    width: 90%;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+#loginForm > div > label{
+    text-align: center;
+}
+
+#loginForm > div > input{
+    display: block;
+    width: 80%;
+    text-align: center;
+    margin: auto !important;
+}
+
+#loginForm > button{
+    width: 40%;
+    margin: 20px auto;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+
+
+@media screen and (min-width:768px) {
+    #loginForm{
+        max-width: 40%;
+    }
+
+    #loginForm > div > input{
+        display: block;
+        width: 60%;
+    }
+}
