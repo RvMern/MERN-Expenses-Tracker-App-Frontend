@@ -16,7 +16,7 @@ const HomePage = () => {
         </div>
 
         <div>
-          <img src="/images/header.png" className='h-full object-cover' alt="Header Image" />
+          <img src="/Images/header.png" className='h-full object-cover' alt="Header Image" />
         </div>
       </div>
 
@@ -60,7 +60,7 @@ const HomePage = () => {
           </div>
 
           <div>
-          <img src="/images/header.png" className='h-full object-cover' alt="Header Image" />
+          <img src="/Images/header.png" className='h-full object-cover' alt="Header Image" />
           </div>
         </div>
       </div>
@@ -70,7 +70,7 @@ const HomePage = () => {
         <h2 className='py-4 my-1 text-3xl font-bold'>Save Time And Money With The Income And Expenses Tracker</h2>
         <p className='my-1'>Flex is small Saas Business. Flex isn't traditional company. We Have a Diverse Team, approaches to work and transparency are key to our success</p>
         <Link className='bg-green-400 p-2 rounded-md inline-block my-6 hover:shadow-lg font-medium' to="/">Get Started</Link>
-        <img className='bg-green-200 object-cover max-h-80 mt-3 w-full' src="/images/header.png" alt="Get Started Img" />
+        <img className='bg-green-200 object-cover max-h-80 mt-3 w-full' src="/Images/header.png" alt="Get Started Img" />
       </div>
     </div>
   )
