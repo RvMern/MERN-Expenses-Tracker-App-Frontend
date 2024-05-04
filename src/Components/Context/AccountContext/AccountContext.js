@@ -43,7 +43,7 @@ const AccountContext = ({children}) => {
     const fetchSingleAccount = async(accountID) => {
         try{
             const token = localStorage.getItem("token");
-            const response = await axios.get(`http://127.0.0.1:5000/api/v1/account/singleaccount/${accountID}`,{headers:{
+            const response = await axios.get(`https://mern-expenses-tracker-app-backend.onrender.com/api/v1/account/singleaccount/${accountID}`,{headers:{
                 'Content-Type':'application/json',
                 'Authorization':`Bearer ${token}`
             }});
@@ -57,7 +57,7 @@ const AccountContext = ({children}) => {
     const createSingleAccount = async(formData) => {
         try{
             const token = localStorage.getItem("token");
-            const response = await axios.post(`http://127.0.0.1:5000/api/v1/account/createaccount`,formData,{headers:{
+            const response = await axios.post(`https://mern-expenses-tracker-app-backend.onrender.com/api/v1/account/createaccount`,formData,{headers:{
                 'Content-Type':'application/json',
                 'Authorization':`Bearer ${token}`
             }});

@@ -73,7 +73,7 @@ const AuthContext = ({children}) => {
 
   const registerUserAction = async(formData) => {
     try{
-      const response = await axios.post('http://127.0.0.1:5000/api/v1/user/register',formData,{
+      const response = await axios.post('https://mern-expenses-tracker-app-backend.onrender.com/api/v1/user/register',formData,{
         headers:{
           'Content-Type' : 'multipart/form-data'
         }
@@ -88,7 +88,7 @@ const AuthContext = ({children}) => {
 
   const loginUserAction = async(formData) => {
     try{
-      const response = await axios.post('http://127.0.0.1:5000/api/v1/user/login',formData,{headers:{
+      const response = await axios.post('https://mern-expenses-tracker-app-backend.onrender.com/api/v1/user/login',formData,{headers:{
         'Content-Type':'application/json'
       }});
       dispatch({type:AUTHENTICATED_USER,payload:response.data});
@@ -104,7 +104,7 @@ const AuthContext = ({children}) => {
       if(token === null){
         return dispatch(NO_TOKEN);
       }
-      const response = await axios.get('http://127.0.0.1:5000/api/v1/user/userprofile',{headers:{
+      const response = await axios.get('https://mern-expenses-tracker-app-backend.onrender.com/api/v1/user/userprofile',{headers:{
         'Content-Type': 'application/json',
         'Authorization': `Bearer ${token}`
       }});
