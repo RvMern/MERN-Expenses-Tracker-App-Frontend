@@ -1,5 +1,0 @@
-routes:
-  - path: "/*"
-    buildCommand: "npm run build"
-    staticPublishPath: "build"
-    cleanUrls: true
